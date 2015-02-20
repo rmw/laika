@@ -1,0 +1,20 @@
+city,dma_code,latitude,longitude,region,slug
+Chicago,602,41.850033,-87.6500523,IL,chicago-il
+Rockford,610,42.2711311,-89.0939952,IL,rockford-il
+St. Paul,613,44.944167,-93.086075,MN,st-paul-mn
+Billings,756,45.7832856,-108.5006904,MT,billings-mt
+Bozeman,754,45.68346,-111.050499,MT,bozeman-mt
+Glendive,798,47.108491,-104.710419,MT,glendive-mt
+Great Falls,755,47.5002354,-111.3008083,MT,great-falls-mt
+Helena,766,46.595805,-112.027031,MT,helena-mt
+Missoula,762,46.872146,-113.9939982,MT,missoula-mt
+Valley City,724,46.9233129,-98.0031547,ND,valley-city-nd
+Dickinson,687,46.8791756,-102.7896242,ND,dickinson-nd
+Williston,687,48.1469683,-103.6179745,ND,williston-nd
+Tacoma,819,47.2528768,-122.4442906,WA,tacoma-wa
+Spokane,881,47.6587802,-117.4260466,WA,spokane-wa
+Kennewick,810,46.2112458,-119.1372338,WA,kennewick-wa
+Eau Claire,702,44.811349,-91.4984941,WI,eau-claire-wi
+Madison,669,43.0730517,-89.4012302,WI,madison-wi
+Seattle,819,45.0452779,-107.1588831,WA,seattle-wa
+Minneapolis,613,44.970697,-93.2614785,MN,minneapolis-mn

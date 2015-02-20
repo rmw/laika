@@ -1,0 +1,82 @@
+@import "constants";
+
+.bar {
+  background-color: $dark-green;
+  height: 12%;
+  margin: -1% -2% 2% -2%;
+  padding: 2%;
+}
+
+.bar h2 {
+  text-align: center;
+  color: white;
+}
+
+.interests {
+  margin: 0 4% 2% 4%;
+  padding-left: 2%;
+}
+
+.interests a {
+  color: $primary-color;
+  font-size: 1.75vw;
+}
+
+.interests h3 {
+  padding: 3%;
+  background-color: $secondary-color;
+  color: white;
+  margin-bottom: 5%;
+  margin-left: -3.5%;
+  margin-top: -.60%;
+  width: 107%;
+}
+
+.interests .submit {
+  float: right;
+}
+
+.category-main-name h2 {
+  background-color: white;
+  padding-left: 3%;
+  margin-left: -3%;
+  font-size: 2vw;
+}
+
+.category-main-name h2:hover {
+  cursor: pointer;
+  background-color: darken($alternating, 10);
+  color: white;
+}
+
+.category-main-name h2 .fa {
+  color: $secondary-color;
+  font-size: 2vw;
+}
+
+h2 .fa:hover {
+  color: white;
+}
+
+.subcategory-names {
+  margin-left: -3%;
+  display: none;
+  height: 10%;
+  width: 30%;
+  overflow-y: scroll;
+}
+
+.subname {
+  padding-left: 3%;
+}
+
+.tripdate {
+  padding-left: 2.5%;
+  font-size: 1.5vw;
+}
+
+.trip .remove-button {
+  padding-left: -20%;
+  font-size: 1.5vw;
+}
+

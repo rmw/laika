@@ -1,0 +1,47 @@
+@import "constants";
+
+nav {
+  padding: .5% 5% 5% 5%;
+}
+
+nav .white {
+  font-size: 3vw;
+}
+
+.brand {
+  color: white;
+  font-size: 3vw;
+}
+
+.login {
+  color: white;
+  font-size: 1.5vw;
+}
+
+.signup {
+  float: right;
+  color: white;
+  font-size: 1.5vw;
+}
+
+nav .top-bar-section {
+  padding-top: 1%;
+  float: right;
+}
+
+@media only screen and (max-width: 40em) {
+
+  nav li a {
+    color: white;
+    font-size: 5vw;
+  }
+
+  .brand {
+    padding-top: 0%;
+  }
+
+  nav .white {
+  font-size: 5vw;
+  }
+
+}

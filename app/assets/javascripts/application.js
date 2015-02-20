@@ -12,5 +12,45 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require foundation
 //= require_tree .
+
+$( document ).ready(function() {
+  $(function(){ $(document).foundation(); });
+
+  $("body").on("click", ".add_waypoint a", function(event){
+    event.preventDefault();
+
+    $("#new_waypoint").show();
+    $(".add_waypoint a").hide();
+  });
+
+  $("body").on("click", "#close_waypoint", function(event){
+    event.preventDefault();
+    $("#new_waypoint").hide();
+    $("#new_waypoint input").val(null);
+    $(".add_waypoint a").show();
+  });
+
+  $("body").on("click", "#close_waypoint", function(event){
+    event.preventDefault();
+    $("#new_waypoint").hide();
+    $("#new_waypoint input").val(null);
+    $(".add_waypoint a").show();
+  });
+
+  $("body").on("click", ".login", function(event){
+    event.preventDefault();
+    $(".get_route").hide();
+    $(".signup_form").hide();
+    $(".login_form").show();
+  });
+
+  $("body").on("click", ".signup", function(event){
+    event.preventDefault();
+    $(".get_route").hide();
+    $(".login_form").hide();
+    $(".signup_form").show();
+  });
+
+});
